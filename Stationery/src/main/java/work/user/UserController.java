@@ -96,7 +96,7 @@ public class UserController implements HttpSessionListener{
 		session.setAttribute("postnum", postnum);
 
 		session.setMaxInactiveInterval(-1); //세션 무한대
-		return "redirect:/work/product/goMain.do";
+		return "redirect:/work/board/retrieveBoardList2.do";
 	}
 
 	@RequestMapping(value="/work/user/retrieveUserId.do", method=RequestMethod.GET)

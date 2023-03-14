@@ -131,7 +131,7 @@ public class ProductController {
 		mv.addObject("dsDressList", dsDressList);
 		mv.addObject("dsShirtsList", dsShirtsList);
 		
-		mv.setViewName("/product/main1");
+		mv.setViewName("/user/login");
 		return mv;
 	}
 
